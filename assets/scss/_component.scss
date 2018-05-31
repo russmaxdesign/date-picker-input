@@ -1,0 +1,91 @@
+/* box */
+
+.box {
+  border: 1px solid #aaa;
+  padding: 1em;
+}
+
+.box__heading {
+  margin: 0 0 .3em;
+  font-weight: normal;
+}
+
+.box__content {
+  margin: 0;
+}
+
+
+/* padding */
+
+.h-pad-1 {
+  padding: .25em;
+}
+
+.h-pad-2 {
+  padding: .5em;
+}
+
+.h-pad-3 {
+  padding: 1em;
+}
+
+.h-pad-4 {
+  padding: 1.5em;
+}
+
+.h-pad-5 {
+  padding: 2em;
+}
+
+
+/* margin */
+
+.h-mar-1 {
+  margin-bottom: .25em;
+}
+
+.h-mar-2 {
+  margin-bottom: .5em;
+}
+
+.h-mar-3 {
+  margin-bottom: 1em;
+}
+
+.h-mar-4 {
+  margin-bottom: 1.5em;
+}
+
+.h-mar-5 {
+  margin-bottom: 2em;
+}
+
+
+/* box */
+
+.h-border-all {
+  border: 1px solid red;
+}
+
+.h-border-tb {
+  border-top: 1px solid red;
+  border-bottom: 1px solid red;
+}
+
+
+/* box */
+
+.h-background-primary {
+  background-color: rgba(50%, 100%, 100%, .6);
+}
+
+.h-background-secondary {
+  background-color: rgba(100%, 50%, 100%, .2);
+}
+
+
+/* box */
+
+.h-border-radius {
+  border-radius: 10px;
+}

@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  color: #333;
+  background: #fff;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1em;
+}
+
+h1 {
+  margin: 0;
+}
+
+h2 {
+  margin: 1em 0 .5em;
+}
+
+form {
+  margin: 0 0 1em;
+  padding: 1em;
+  background: #eee;
+}
+
+.container {
+  max-width: 40em;
+}
+
+.date-picker {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.date-picker__legend {
+  position: relative;
+  left: -2px;
+  margin: 0 0 .5em;
+  font-weight: bold;
+}
+
+.date-picker__label {
+  display: block;
+  margin: 0 0 .3em;
+}
+
+.date-picker__label--hidden {
+  position: absolute;
+  left: -5000px;
+}
+
+.date-picker__input,
+.date-picker__input--blank {
+  width: 2.8em;
+  height: 32px;
+  border: 1px solid #666;
+  border-radius: .2em;
+  padding: 0 .5em;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  line-height: 32px;
+}
+
+.date-picker__input--blank {
+  border: 0;
+}
+
+.date-picker__input--wide {
+  width: 3.8em;
+}
+
+.date-picker__container,
+.date-picker__container--last {
+  float: left;
+  margin: 0 .5em 0 0;
+}
+
+.date-picker__container--last {
+  margin: 0;
+}
+
+.date-picker__outer {
+  float: left;
+  border: 1px solid #666;
+  border-radius: .2em;
+  background: #fff;
+}
+
+.date-picker__dash:after {
+  content: '/';
+  color: #aaa;
+}
+
+::-webkit-input-placeholder {
+  opacity: 1;
+  color: #aaa;
+}
+
+:-moz-placeholder {
+  opacity: 1;
+  color: #aaa;
+}
+
+::-moz-placeholder {
+  opacity: 1;
+  color: #aaa;
+}
+
+:-ms-input-placeholder {
+  opacity: 1;
+  color: #aaa;
+}
+
+.date-picker__input:focus::-webkit-input-placeholder,
+.date-picker__input--blank:focus::-webkit-input-placeholder {
+  color: #ddd;
+}
+
+.date-picker__input:focus:-moz-placeholder,
+.date-picker__input--blank:focus:-moz-placeholder {
+  color: #ddd;
+}
+
+.date-picker__input:focus::-moz-placeholder,
+.date-picker__input--blank:focus::-moz-placeholder {
+  color: #ddd;
+}
+
+.date-picker__input:focus:-ms-input-placeholder,
+.date-picker__input--blank:focus:-ms-input-placeholder {
+  color: #ddd;
+}

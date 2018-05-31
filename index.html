@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Date picker example</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/date-picker.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Date picker example</h1>
+    <p><a href="https://github.com/russmaxdesign/date-picker">Github Page</a></p>
+    <h2>Example 1 - visible labels</h2>
+    <form action="#">
+      <fieldset class="date-picker">
+        <legend class="date-picker__legend">Date of birth</legend>
+        <div class="date-picker__container">
+          <label class="date-picker__label" for="day">Day</label>
+          <input class="date-picker__input" id="day" type="text" placeholder="DD">
+        </div>
+        <div class="date-picker__container">
+          <label class="date-picker__label" for="month">Month</label>
+          <input class="date-picker__input" id="month" type="text" placeholder="MM">
+        </div>
+        <div class="date-picker__container">
+          <label class="date-picker__label" for="year">Year</label>
+          <input class="date-picker__input date-picker__input--wide" id="year" type="text"  placeholder="YYYY">
+        </div>
+      </fieldset>
+    </form>
+
+    <h2>Example 2 - hidden labels</h2>
+    <form action="#">
+      <fieldset class="date-picker">
+        <legend class="date-picker__legend">Date of birth</legend>
+        <div class="date-picker__outer">
+          <div class="date-picker__container date-picker__dash">
+            <label class="date-picker__label--hidden" for="day2">Day</label>
+            <input class="date-picker__input--blank" id="day2" type="text" placeholder="DD">
+          </div>
+          <div class="date-picker__container date-picker__dash">
+            <label class="date-picker__label--hidden" for="month2">Month</label>
+            <input class="date-picker__input--blank" id="month2" type="text" placeholder="MM">
+          </div>
+          <div class="date-picker__container date-picker__container--last">
+            <label class="date-picker__label--hidden" for="year2">Year</label>
+            <input class="date-picker__input--blank date-picker__input--wide" id="year2" type="text" placeholder="YYYY">
+          </div>
+        </div>
+      </fieldset>
+    </form>
+
+    <p><a href="https://github.com/russmaxdesign/date-picker">Github Page</a></p>
+  </div>
+
+<script src="assets/js/prism.js"></script>
+</body>
+</html>
